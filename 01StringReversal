@@ -1,0 +1,16 @@
+public class StringReversal {
+    public static void main(String args[]) {
+      String given="Helloworld";
+      String reversed="";
+      char ch;
+      for(int i=0;i<given.length();i++){
+          
+          ch=given.charAt(i);
+          reversed = ch+reversed;
+          
+      }
+      System.out.println("Given String is " + given);
+      System.out.println("Given String is " + reversed);
+       
+    }
+}
