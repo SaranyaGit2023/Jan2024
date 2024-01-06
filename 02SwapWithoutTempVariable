@@ -1,0 +1,11 @@
+public class MyClass {
+    public static void main(String args[]) {
+      int x=10;
+      int y=15;
+      System.out.println("Value of X " + x + "and Y " + y + " before swapping");
+      x= x+y;
+      y = x-y;
+      x=x-y;
+      System.out.println("Value of X " + x + "and Y " + y + " after swapping");
+    }
+}
